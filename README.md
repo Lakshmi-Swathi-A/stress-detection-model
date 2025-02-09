@@ -5,7 +5,7 @@ Chronic stress affects health, making accurate detection vital. Using WESAD data
 
 1. Dataset: 
 Used the WESAD dataset (Wristband-based Affect and Stress Detection).
-Collected physiological signals using the Empatica E4 wristband from 15 participants.
+Collected physiological signals (GSR) using the Empatica E4 wristband from 15 participants.
 Sampling rate: 4 Hz (data collected every 0.25 seconds).
 
 3. Data Preprocessing:
