@@ -16,7 +16,7 @@ Segmented data into 60-second windows with 50% overlap.
 Removed uniform segments to eliminate irrelevant data.
 
 5. Feature Engineering:
-Extracted phasic (skin conductance level) & tonic (skin conductance level) components from EDA signals using cvxEDA algorithm.
+Extracted phasic (skin conductance response) & tonic (skin conductance level) components from EDA signals using cvxEDA algorithm.
 Identified peak features (count, amplitude, local minima using min distance = 10 samples).
 Computed 53 statistical features, including: Mean, RMS, Variance, Skewness, Kurtosis.
 Frequency domain features using Welch’s method (Power Spectral Density - PSD).
